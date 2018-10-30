@@ -261,7 +261,7 @@ class Environment(testmod.Environment):
             print "Manual operation required on server:"
             print args + " and hit ENTER when done"
             sys.stdin.readline()
-            print("Continuing with test")
+            print "Continuing with test"
         else:
             cmd = self.opts.serverhelper
             if self.opts.serverhelperarg:
